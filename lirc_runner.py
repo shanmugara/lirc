@@ -47,9 +47,6 @@ class Homescreen(object):
         pass
 
 
-
-
-
 def start_rc():
 
 
