@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="548c0881-43e3-4a3e-aa19-417376aa4421" name="Default Changelist" comment="" />
+    <list default="true" id="548c0881-43e3-4a3e-aa19-417376aa4421" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devices/avr.py" beforeDir="false" afterPath="$PROJECT_DIR$/devices/avr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devices/bluray.py" beforeDir="false" afterPath="$PROJECT_DIR$/devices/bluray.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devices/projector.py" beforeDir="false" afterPath="$PROJECT_DIR$/devices/projector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lirc_runner.py" beforeDir="false" afterPath="$PROJECT_DIR$/lirc_runner.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/lirc$lirc_runner.coverage" NAME="lirc_runner Coverage Results" MODIFIED="1545531293300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lirc$lirc_runner.coverage" NAME="lirc_runner Coverage Results" MODIFIED="1545532579785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1332490516">
@@ -31,12 +37,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1964" />
+          <entry key="py" value="2058" />
+          <entry key="txt" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1964" />
+          <entry key="PLAIN_TEXT" value="12" />
+          <entry key="Python" value="2058" />
         </counts>
       </usages-collector>
     </session>
@@ -46,12 +54,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lirc_runner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="26" lean-forward="true" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+            <state relative-caret-position="311">
+              <caret line="39" column="12" lean-forward="true" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
               <folding>
                 <element signature="e#0#80#0" expanded="true" />
-                <marker date="1545531453574" expanded="true" signature="1608:1641" ph="..." />
-                <marker date="1545531453574" expanded="true" signature="1668:1673" ph="..." />
+                <marker date="1545532468180" expanded="true" signature="1422:1441" ph="..." />
+                <marker date="1545532468180" expanded="true" signature="1462:1497" ph="..." />
+                <marker date="1545532468180" expanded="true" signature="1631:1664" ph="..." />
+                <marker date="1545532468180" expanded="true" signature="1691:1696" ph="..." />
               </folding>
             </state>
           </provider>
@@ -61,9 +71,9 @@
         <entry file="file://$PROJECT_DIR$/devices/projector.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+              <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
               <folding>
-                <marker date="1545518971272" expanded="true" signature="70:75" ph="..." />
+                <marker date="1545532468184" expanded="true" signature="70:75" ph="..." />
               </folding>
             </state>
           </provider>
@@ -81,25 +91,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/devices/avr.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
               <folding>
-                <marker date="1545518971275" expanded="true" signature="65:70" ph="..." />
+                <marker date="1545532468186" expanded="true" signature="65:70" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/devices/bluray.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+              <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
               <folding>
-                <marker date="1545531453576" expanded="true" signature="67:72" ph="..." />
+                <marker date="1545532468182" expanded="true" signature="67:72" ph="..." />
               </folding>
             </state>
           </provider>
@@ -114,15 +124,18 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/devices/__init__.py" />
         <option value="$PROJECT_DIR$/__init__.py" />
-        <option value="$PROJECT_DIR$/devices/avr.py" />
-        <option value="$PROJECT_DIR$/devices/projector.py" />
         <option value="$PROJECT_DIR$/devices/screen.py" />
         <option value="$PROJECT_DIR$/lirc_runner.py" />
+        <option value="$PROJECT_DIR$/devices/avr.py" />
+        <option value="$PROJECT_DIR$/devices/projector.py" />
         <option value="$PROJECT_DIR$/devices/bluray.py" />
       </list>
     </option>
@@ -138,6 +151,7 @@
     <option name="width" value="1680" />
     <option name="height" value="1027" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -150,11 +164,6 @@
               <item name="lirc" type="b2602c69:ProjectViewProjectNode" />
               <item name="lirc" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="lirc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lirc" type="462c0819:PsiDirectoryNode" />
-              <item name="devices" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -166,7 +175,7 @@
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -227,6 +236,14 @@
       <option name="presentableId" value="Default" />
       <updated>1545365793187</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial push">
+      <created>1545531985709</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1545531985709</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -234,7 +251,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
@@ -244,7 +261,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -263,6 +280,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial push" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial push" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -270,12 +291,26 @@
     <entry file="file://$PROJECT_DIR$/devices/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/devices/avr.py">
+    <entry file="file://$PROJECT_DIR$/lirc_runner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="311">
+          <caret line="39" column="12" lean-forward="true" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
           <folding>
-            <marker date="1545518971275" expanded="true" signature="65:70" ph="..." />
+            <element signature="e#0#80#0" expanded="true" />
+            <marker date="1545532468180" expanded="true" signature="1422:1441" ph="..." />
+            <marker date="1545532468180" expanded="true" signature="1462:1497" ph="..." />
+            <marker date="1545532468180" expanded="true" signature="1631:1664" ph="..." />
+            <marker date="1545532468180" expanded="true" signature="1691:1696" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/devices/bluray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+          <folding>
+            <marker date="1545532468182" expanded="true" signature="67:72" ph="..." />
           </folding>
         </state>
       </provider>
@@ -293,31 +328,19 @@
     <entry file="file://$PROJECT_DIR$/devices/projector.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
           <folding>
-            <marker date="1545518971272" expanded="true" signature="70:75" ph="..." />
+            <marker date="1545532468184" expanded="true" signature="70:75" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lirc_runner.py">
+    <entry file="file://$PROJECT_DIR$/devices/avr.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="26" lean-forward="true" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
           <folding>
-            <element signature="e#0#80#0" expanded="true" />
-            <marker date="1545531453574" expanded="true" signature="1608:1641" ph="..." />
-            <marker date="1545531453574" expanded="true" signature="1668:1673" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/devices/bluray.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-          <folding>
-            <marker date="1545531453576" expanded="true" signature="67:72" ph="..." />
+            <marker date="1545532468186" expanded="true" signature="65:70" ph="..." />
           </folding>
         </state>
       </provider>

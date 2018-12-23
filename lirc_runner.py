@@ -32,18 +32,26 @@ class Homescreen(object):
         elif device.lower() == 'screen':
             pass
         elif device.lower() == 'all':
-            self.pwr_all_button = PushButton(self.app, grid=[300, 6], command=self.pwr('all'))
+            self.pwr_all_button = PushButton(self.app, grid=[300, 6], command=self.pwr_all)
             self.pwr_all_button.text = 'ON/OFF'
             self.app.display()
 
-    def pwr(self, device):
-        if device == 'all':
-            for d in self.comps_list:
-                pass
-        else:
-            pass
+    def pwr_all(self):
+        self.projector_pwr()
+        self.avr_pwr()
+        self.bluray_pwr()
+        self.rc_screen.down()
 
-    def send_pwr(self):
+    def bluray_pwr(self):
+        self.rc_bluray.pwr()
+
+    def avr_pwr(self):
+        self.rc_avr.pwr()
+
+    def projector_pwr(self):
+        self.rc_projector.pwr()
+
+    def screen_pwr(self):
         pass
 
 

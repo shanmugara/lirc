@@ -6,4 +6,4 @@ class Avr(object):
         self.remote_model = remotecode
 
     def pwr(self):
-        pass
+        pwr_out = check_output(['lirsend', 'SEND_ONCE', self.remote_model, 'BTN_PWR'])

@@ -5,4 +5,4 @@ class Bluray(object):
         self.remote_model = remotecode
 
     def pwr(self):
-        pwr_out = check_output(['lirsend', 'SEND_ONCE', self.remote_model, 'BTN_PWR'])
+        pwr_out = check_output(['irsend', 'SEND_ONCE', self.remote_model, 'BTN_PWR'])
