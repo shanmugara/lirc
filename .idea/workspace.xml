@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="548c0881-43e3-4a3e-aa19-417376aa4421" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tk_lirc_runner.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devices/avr.py" beforeDir="false" afterPath="$PROJECT_DIR$/devices/avr.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devices/bluray.py" beforeDir="false" afterPath="$PROJECT_DIR$/devices/bluray.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devices/projector.py" beforeDir="false" afterPath="$PROJECT_DIR$/devices/projector.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lirc_runner.py" beforeDir="false" afterPath="$PROJECT_DIR$/lirc_runner.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,54 +13,84 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/lirc$lirc_runner.coverage" NAME="lirc_runner Coverage Results" MODIFIED="1545532579785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lirc$tk_lirc_runner.coverage" NAME="tk_lirc_runner Coverage Results" MODIFIED="1546291155453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lirc$lirc_runner.coverage" NAME="lirc_runner Coverage Results" MODIFIED="1546206641751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1332490516">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="7" />
+          <entry key="json" value="1" />
+          <entry key="py" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="7" />
+          <entry key="JSON" value="1" />
+          <entry key="Python" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="2058" />
+          <entry key="json" value="76" />
+          <entry key="py" value="4218" />
           <entry key="txt" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="JSON" value="76" />
           <entry key="PLAIN_TEXT" value="12" />
-          <entry key="Python" value="2058" />
+          <entry key="Python" value="4218" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lirc_runner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="39" column="12" lean-forward="true" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+            <state relative-caret-position="376">
+              <caret line="74" column="22" selection-start-line="53" selection-start-column="4" selection-end-line="84" selection-end-column="35" />
               <folding>
                 <element signature="e#0#80#0" expanded="true" />
-                <marker date="1545532468180" expanded="true" signature="1422:1441" ph="..." />
-                <marker date="1545532468180" expanded="true" signature="1462:1497" ph="..." />
-                <marker date="1545532468180" expanded="true" signature="1631:1664" ph="..." />
-                <marker date="1545532468180" expanded="true" signature="1691:1696" ph="..." />
+                <marker date="1545607110047" expanded="true" signature="2225:2348" ph="..." />
+                <marker date="1545607110047" expanded="true" signature="2372:2410" ph="..." />
+                <marker date="1545607110047" expanded="true" signature="2431:2466" ph="..." />
+                <marker date="1545607110047" expanded="true" signature="2493:2534" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tk_lirc_runner.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="82" column="8" selection-start-line="82" selection-start-column="8" selection-end-line="82" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+                <marker date="1546291047359" expanded="true" signature="122:127" ph="..." />
+                <marker date="1546291047359" expanded="true" signature="1444:3073" ph="..." />
+                <marker date="1546291047359" expanded="true" signature="3599:3698" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/devices/rc_model_map.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -70,10 +98,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/devices/projector.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+            <state relative-caret-position="150">
+              <caret line="10" column="87" selection-start-line="10" selection-start-column="87" selection-end-line="10" selection-end-column="87" />
               <folding>
-                <marker date="1545532468184" expanded="true" signature="70:75" ph="..." />
+                <marker date="1545605746608" expanded="true" signature="70:75" ph="..." />
               </folding>
             </state>
           </provider>
@@ -83,7 +111,7 @@
         <entry file="file://$PROJECT_DIR$/devices/screen.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
               <folding>
                 <marker date="1545519028372" expanded="true" signature="67:72" ph="..." />
               </folding>
@@ -91,13 +119,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/devices/avr.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="150">
+              <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
               <folding>
-                <marker date="1545532468186" expanded="true" signature="65:70" ph="..." />
+                <marker date="1545605746610" expanded="true" signature="65:70" ph="..." />
               </folding>
             </state>
           </provider>
@@ -106,10 +134,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/devices/bluray.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+            <state relative-caret-position="150">
+              <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
               <folding>
-                <marker date="1545532468182" expanded="true" signature="67:72" ph="..." />
+                <marker date="1545605746605" expanded="true" signature="67:72" ph="..." />
               </folding>
             </state>
           </provider>
@@ -133,10 +161,12 @@
         <option value="$PROJECT_DIR$/devices/__init__.py" />
         <option value="$PROJECT_DIR$/__init__.py" />
         <option value="$PROJECT_DIR$/devices/screen.py" />
-        <option value="$PROJECT_DIR$/lirc_runner.py" />
-        <option value="$PROJECT_DIR$/devices/avr.py" />
+        <option value="$PROJECT_DIR$/devices/rc_model_map.json" />
         <option value="$PROJECT_DIR$/devices/projector.py" />
+        <option value="$PROJECT_DIR$/devices/avr.py" />
         <option value="$PROJECT_DIR$/devices/bluray.py" />
+        <option value="$PROJECT_DIR$/lirc_runner.py" />
+        <option value="$PROJECT_DIR$/tk_lirc_runner.py" />
       </list>
     </option>
   </component>
@@ -157,6 +187,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -168,14 +199,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -196,7 +226,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.tk_lirc_runner">
     <configuration name="lirc_runner" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="lirc" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -219,8 +249,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="tk_lirc_runner" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="lirc" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tk_lirc_runner.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.lirc_runner" />
+      <item itemvalue="Python.tk_lirc_runner" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.tk_lirc_runner" />
         <item itemvalue="Python.lirc_runner" />
       </list>
     </recent_temporary>
@@ -243,35 +300,49 @@
       <option name="project" value="LOCAL" />
       <updated>1545531985709</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial push">
+      <created>1545532615733</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1545532615733</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Initial push">
+      <created>1545605786182</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1545605786182</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Remote Host" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" />
+      <window_info anchor="right" id="SciView" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,26 +362,19 @@
     <entry file="file://$PROJECT_DIR$/devices/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/lirc_runner.py">
+    <entry file="file://$PROJECT_DIR$/devices/rc_model_map.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="39" column="12" lean-forward="true" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#80#0" expanded="true" />
-            <marker date="1545532468180" expanded="true" signature="1422:1441" ph="..." />
-            <marker date="1545532468180" expanded="true" signature="1462:1497" ph="..." />
-            <marker date="1545532468180" expanded="true" signature="1631:1664" ph="..." />
-            <marker date="1545532468180" expanded="true" signature="1691:1696" ph="..." />
-          </folding>
+        <state relative-caret-position="75">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/devices/bluray.py">
+    <entry file="file://$PROJECT_DIR$/devices/projector.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        <state relative-caret-position="150">
+          <caret line="10" column="87" selection-start-line="10" selection-start-column="87" selection-end-line="10" selection-end-column="87" />
           <folding>
-            <marker date="1545532468182" expanded="true" signature="67:72" ph="..." />
+            <marker date="1545605746608" expanded="true" signature="70:75" ph="..." />
           </folding>
         </state>
       </provider>
@@ -318,29 +382,56 @@
     <entry file="file://$PROJECT_DIR$/devices/screen.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
           <folding>
             <marker date="1545519028372" expanded="true" signature="67:72" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/devices/projector.py">
+    <entry file="file://$PROJECT_DIR$/devices/avr.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        <state relative-caret-position="150">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
           <folding>
-            <marker date="1545532468184" expanded="true" signature="70:75" ph="..." />
+            <marker date="1545605746610" expanded="true" signature="65:70" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/devices/avr.py">
+    <entry file="file://$PROJECT_DIR$/devices/bluray.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="150">
+          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
           <folding>
-            <marker date="1545532468186" expanded="true" signature="65:70" ph="..." />
+            <marker date="1545605746605" expanded="true" signature="67:72" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lirc_runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="74" column="22" selection-start-line="53" selection-start-column="4" selection-end-line="84" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#80#0" expanded="true" />
+            <marker date="1545607110047" expanded="true" signature="2225:2348" ph="..." />
+            <marker date="1545607110047" expanded="true" signature="2372:2410" ph="..." />
+            <marker date="1545607110047" expanded="true" signature="2431:2466" ph="..." />
+            <marker date="1545607110047" expanded="true" signature="2493:2534" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tk_lirc_runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="82" column="8" selection-start-line="82" selection-start-column="8" selection-end-line="82" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <marker date="1546291047359" expanded="true" signature="122:127" ph="..." />
+            <marker date="1546291047359" expanded="true" signature="1444:3073" ph="..." />
+            <marker date="1546291047359" expanded="true" signature="3599:3698" ph="..." />
           </folding>
         </state>
       </provider>

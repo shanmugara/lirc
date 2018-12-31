@@ -32,7 +32,12 @@ class Homescreen(object):
     def home_buttons(self, device):
         self.disp_text.value = device
         if device.lower() == 'bluray':
-            pass
+            self.pwr_on_bluray_button = PushButton(self.app, grid=[100, 6], command=self.bluray_pwr_on)
+            self.pwr_on_bluray_button.text = 'ON'
+            self.pwr_off_bluray_button = PushButton(self.app, grid=[200, 6], command=self.bluray_pwr_off)
+            self.pwr_off_bluray_button.text = 'OFF'
+            self.app.display()
+
         elif device.lower() == 'avr':
             pass
         elif device.lower() == 'projector':
