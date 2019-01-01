@@ -1,5 +1,6 @@
 from tkinter import *
 from devices import bluray, avr, projector, screen
+from PIL import ImageTk, Image
 import os
 import json
 import time
@@ -17,6 +18,9 @@ class HomeScreen(object):
         self.rc_avr = avr.Avr(self.rc_dict['avr'])
         self.rc_projector = projector.Projector(self.rc_dict['projector'])
         self.rc_screen = screen.Screen(self.rc_dict['screen'])
+
+        self.image_on = ImageTk.PhotoImage(Image.open('images/power_on.png'))
+        self.image_off = ImageTk.PhotoImage(Image.open('images/power_off.png'))
 
         self.master = master
         self.master.title('RaspPi Remote')
@@ -45,10 +49,10 @@ class HomeScreen(object):
         if dev_name == 'All':
             self.clearcenter()
             self.on_button = Button(self.centerframe, text='ON', command=self.pwr_on_all, fg="green",
-                                    activebackground='#58ACFA', height=2, width=10, bg='#81BEF7')
+                                    activebackground='#58ACFA', height=40, width=40, bg='#81BEF7', image=self.image_on)
             self.on_button.grid(row=5, column=3, rowspan=2)
             self.off_button = Button(self.centerframe, text='OFF', command=self.pwr_off_all, fg="red",
-                                     activebackground='#58ACFA', height=2, width=10, bg='#81BEF7')
+                                     activebackground='#58ACFA', height=40, width=40, bg='#81BEF7', image=self.image_off)
             self.off_button.grid(row=5, column=10, rowspan=2)
 
         elif dev_name == 'Bluray':
