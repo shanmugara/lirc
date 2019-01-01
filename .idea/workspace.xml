@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="548c0881-43e3-4a3e-aa19-417376aa4421" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devices/rc_model_map.json" beforeDir="false" afterPath="$PROJECT_DIR$/devices/rc_model_map.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tk_lirc_runner.py" beforeDir="false" afterPath="$PROJECT_DIR$/tk_lirc_runner.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,7 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/lirc$tk_lirc_runner.coverage" NAME="tk_lirc_runner Coverage Results" MODIFIED="1546293998173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lirc$tk_lirc_runner.coverage" NAME="tk_lirc_runner Coverage Results" MODIFIED="1546312524629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lirc$lirc_runner.coverage" NAME="lirc_runner Coverage Results" MODIFIED="1546206641751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
@@ -41,7 +40,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="json" value="90" />
-          <entry key="py" value="4368" />
+          <entry key="py" value="4424" />
           <entry key="txt" value="12" />
         </counts>
       </usages-collector>
@@ -49,45 +48,29 @@
         <counts>
           <entry key="JSON" value="90" />
           <entry key="PLAIN_TEXT" value="12" />
-          <entry key="Python" value="4368" />
+          <entry key="Python" value="4424" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lirc_runner.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1065">
-              <caret line="74" column="22" selection-start-line="53" selection-start-column="4" selection-end-line="84" selection-end-column="35" />
-              <folding>
-                <element signature="e#0#80#0" expanded="true" />
-                <marker date="1545607110047" expanded="true" signature="2225:2348" ph="..." />
-                <marker date="1545607110047" expanded="true" signature="2372:2410" ph="..." />
-                <marker date="1545607110047" expanded="true" signature="2431:2466" ph="..." />
-                <marker date="1545607110047" expanded="true" signature="2493:2534" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tk_lirc_runner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="41" column="37" lean-forward="true" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
+            <state relative-caret-position="163">
+              <caret line="48" column="81" selection-start-line="48" selection-start-column="81" selection-end-line="48" selection-end-column="81" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
-                <marker date="1546293998166" expanded="true" signature="134:139" ph="..." />
-                <marker date="1546293998166" expanded="true" signature="1456:3180" ph="..." />
-                <marker date="1546293998166" expanded="true" signature="3829:3928" ph="..." />
+                <marker date="1546314936027" expanded="true" signature="134:139" ph="..." />
+                <marker date="1546314936027" expanded="true" signature="1456:3669" ph="..." />
+                <marker date="1546314936027" expanded="true" signature="4318:4417" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/devices/rc_model_map.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -166,8 +149,8 @@
         <option value="$PROJECT_DIR$/devices/avr.py" />
         <option value="$PROJECT_DIR$/devices/bluray.py" />
         <option value="$PROJECT_DIR$/lirc_runner.py" />
-        <option value="$PROJECT_DIR$/tk_lirc_runner.py" />
         <option value="$PROJECT_DIR$/devices/rc_model_map.json" />
+        <option value="$PROJECT_DIR$/tk_lirc_runner.py" />
       </list>
     </option>
   </component>
@@ -327,19 +310,33 @@
       <option name="project" value="LOCAL" />
       <updated>1546291179478</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Initial push">
+      <created>1546295337358</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1546295337358</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Initial push">
+      <created>1546295703282</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1546295703282</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25579977" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25579977" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32941177" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -381,10 +378,6 @@
           <caret line="74" column="22" selection-start-line="53" selection-start-column="4" selection-end-line="84" selection-end-column="35" />
           <folding>
             <element signature="e#0#80#0" expanded="true" />
-            <marker date="1545607110047" expanded="true" signature="2225:2348" ph="..." />
-            <marker date="1545607110047" expanded="true" signature="2372:2410" ph="..." />
-            <marker date="1545607110047" expanded="true" signature="2431:2466" ph="..." />
-            <marker date="1545607110047" expanded="true" signature="2493:2534" ph="..." />
           </folding>
         </state>
       </provider>
@@ -429,23 +422,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tk_lirc_runner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="41" column="37" lean-forward="true" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-            <marker date="1546293998166" expanded="true" signature="134:139" ph="..." />
-            <marker date="1546293998166" expanded="true" signature="1456:3180" ph="..." />
-            <marker date="1546293998166" expanded="true" signature="3829:3928" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/devices/rc_model_map.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tk_lirc_runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="48" column="81" selection-start-line="48" selection-start-column="81" selection-end-line="48" selection-end-column="81" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <marker date="1546314936027" expanded="true" signature="134:139" ph="..." />
+            <marker date="1546314936027" expanded="true" signature="1456:3669" ph="..." />
+            <marker date="1546314936027" expanded="true" signature="4318:4417" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
