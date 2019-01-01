@@ -31,10 +31,11 @@ class HomeScreen(object):
 
         self.label.grid(row=0, column=3)
 
-        self.device_list = ['all', 'bluray', 'avr', 'projector', 'screen']
+        self.device_list = ['All', 'Bluray', 'AVR', 'Projector', 'Screen']
         self.devices = StringVar(master)
         self.devices.set(self.device_list[0])
-        self.device_menu = OptionMenu(self.topframe, self.devices, *self.device_list, command=self.home_buttons)
+        self.device_menu = OptionMenu(self.topframe, self.devices, *self.device_list, command=self.home_buttons,
+                                      font=('impact', 12))
         self.device_menu.grid(row=0, column=5)
 
         self.home_buttons(self.devices.get())
