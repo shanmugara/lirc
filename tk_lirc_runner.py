@@ -21,7 +21,7 @@ class HomeScreen(object):
         self.master = master
         self.master.title('RaspPi Remote')
 
-        self.topframe = Frame(master, height=30, width=400)
+        self.topframe = Frame(master, height=35, width=400)
         self.topframe.grid_propagate(0)
         self.topframe.grid(row=0, column=0)
         self.centerframe = Frame(master)
