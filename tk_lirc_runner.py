@@ -43,10 +43,10 @@ class HomeScreen(object):
         if dev_name == 'all':
             self.clearcenter()
             self.on_button = Button(self.centerframe, text='ON', command=self.pwr_on_all, fg="green",
-                                    activebackground='blue', height=15, width=30)
+                                    activebackground='blue', height=2, width=10)
             self.on_button.grid(row=5, column=3, rowspan=2)
             self.off_button = Button(self.centerframe, text='OFF', command=self.pwr_off_all, fg="red",
-                                     activebackground='blue', height=15, width=30)
+                                     activebackground='blue', height=2, width=10)
             self.off_button.grid(row=5, column=10, rowspan=2)
 
         elif dev_name == 'bluray':
