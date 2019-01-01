@@ -36,6 +36,7 @@ class HomeScreen(object):
         self.devices.set(self.device_list[0])
         self.device_menu = OptionMenu(self.topframe, self.devices, *self.device_list, command=self.home_buttons)
         self.device_menu.config(font=('calibri', (10)), fg='white', bg='magenta')
+        self.device_menu['menu'].config(font=('calibri', (10)), fg='white', bg='magenta')
         self.device_menu.grid(row=0, column=5)
 
         self.home_buttons(self.devices.get())
