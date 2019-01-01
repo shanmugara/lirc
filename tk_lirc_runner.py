@@ -54,10 +54,22 @@ class HomeScreen(object):
             self.clearcenter()
             self.on_button = Button(self.centerframe, text='ON', command=self.rc_bluray.pwr_on, fg="green",
                                     activebackground='blue', height=2, width=10)
-            self.on_button.grid(row=5, column=3, rowspan=2)
+            self.on_button.grid(row=2, column=1, rowspan=2)
             self.off_button = Button(self.centerframe, text='OFF', command=self.rc_bluray.pwr_off, fg="red",
                                      activebackground='blue', height=2, width=10)
-            self.off_button.grid(row=5, column=10, rowspan=2)
+            self.off_button.grid(row=2, column=2, rowspan=2)
+            self.on_button = Button(self.centerframe, text='Play', command=self.rc_bluray.pwr_on, fg="blue",
+                                    activebackground='blue', height=2, width=10)
+            self.on_button.grid(row=8, column=1, rowspan=1)
+            self.on_button = Button(self.centerframe, text='Stop', command=self.rc_bluray.pwr_on, fg="red",
+                                    activebackground='blue', height=2, width=10)
+            self.on_button.grid(row=8, column=2, rowspan=1)
+            self.on_button = Button(self.centerframe, text='Pause', command=self.rc_bluray.pwr_on, fg="red",
+                                    activebackground='blue', height=2, width=10)
+            self.on_button.grid(row=8, column=3, rowspan=1)
+            self.on_button = Button(self.centerframe, text='Eject', command=self.rc_bluray.pwr_on, fg="red",
+                                    activebackground='blue', height=2, width=10)
+            self.on_button.grid(row=10, column=2, rowspan=1)
 
         elif dev_name == 'AVR':
             self.clearcenter()
