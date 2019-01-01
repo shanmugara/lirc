@@ -41,7 +41,7 @@ class HomeScreen(object):
         self.home_buttons(self.devices.get())
 
     def home_buttons(self, dev_name):
-        if dev_name == 'all':
+        if dev_name == 'All':
             self.clearcenter()
             self.on_button = Button(self.centerframe, text='ON', command=self.pwr_on_all, fg="green",
                                     activebackground='blue', height=2, width=10)
@@ -50,34 +50,34 @@ class HomeScreen(object):
                                      activebackground='blue', height=2, width=10)
             self.off_button.grid(row=5, column=10, rowspan=2)
 
-        elif dev_name == 'bluray':
+        elif dev_name == 'Bluray':
             self.clearcenter()
             self.on_button = Button(self.centerframe, text='ON', command=self.rc_bluray.pwr_on, fg="green",
-                                    activebackground='blue')
+                                    activebackground='blue', height=2, width=10)
             self.on_button.grid(row=5, column=3, rowspan=2)
             self.off_button = Button(self.centerframe, text='OFF', command=self.rc_bluray.pwr_off, fg="red",
-                                     activebackground='blue')
+                                     activebackground='blue', height=2, width=10)
             self.off_button.grid(row=5, column=10, rowspan=2)
 
-        elif dev_name == 'avr':
+        elif dev_name == 'AVR':
             self.clearcenter()
             self.on_button = Button(self.centerframe, text='ON', command=self.rc_avr.pwr_on, fg="green",
-                                    activebackground='blue')
+                                    activebackground='blue', height=2, width=10)
             self.on_button.grid(row=5, column=3, rowspan=2)
             self.off_button = Button(self.centerframe, text='OFF', command=self.rc_avr.pwr_off, fg="red",
-                                     activebackground='blue')
+                                     activebackground='blue', height=2, width=10)
             self.off_button.grid(row=5, column=10, rowspan=2)
 
-        elif dev_name == 'projector':
+        elif dev_name == 'Projector':
             self.clearcenter()
             self.on_button = Button(self.centerframe, text='ON', command=self.rc_projector.pwr_on, fg="green",
-                                    activebackground='blue')
+                                    activebackground='blue', height=2, width=10)
             self.on_button.grid(row=5, column=3, rowspan=2)
             self.off_button = Button(self.centerframe, text='OFF', command=self.rc_projector.pwr_off, fg="red",
-                                     activebackground='blue')
+                                     activebackground='blue', height=2, width=10)
             self.off_button.grid(row=5, column=10, rowspan=2)
 
-        elif dev_name == 'screen':
+        elif dev_name == 'Screen':
             self.clearcenter()
 
     def test(self):
