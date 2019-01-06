@@ -92,11 +92,11 @@ class HomeScreen(object):
             self.rewind_button = Button(self.centerframe, text='Rewind', command=self.rc_bluray.rewind, fg="red",
                                        activebackground='#58ACFA', height=40, width=40, bg='#81BEF7',
                                        image=self.image_rewind)
-            self.rewind_button.grid(row=9, column=1, rowspan=1)
-            self.ff_button = Button(self.centerframe, text='FF', command=self.rc_bluray.rewind, fg="red",
+            self.rewind_button.grid(row=10, column=1, rowspan=1)
+            self.ff_button = Button(self.centerframe, text='FF', command=self.rc_bluray.ff, fg="red",
                                         activebackground='#58ACFA', height=40, width=40, bg='#81BEF7',
                                         image=self.image_ff)
-            self.ff_button.grid(row=9, column=2, rowspan=1)
+            self.ff_button.grid(row=10, column=2, rowspan=1)
 
         elif dev_name == 'AVR':
             self.clearcenter()

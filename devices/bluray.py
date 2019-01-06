@@ -9,3 +9,9 @@ class Bluray(object):
 
     def pwr_off(self):
         pwr_out = check_output(['irsend', 'SEND_ONCE', self.remote_model, 'KEY_POWER'])
+
+    def rewind(self):
+        pass
+
+    def ff(self):
+        pass
