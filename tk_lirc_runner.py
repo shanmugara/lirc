@@ -88,7 +88,15 @@ class HomeScreen(object):
             self.eject_button = Button(self.centerframe, text='Eject', command=self.rc_bluray.pwr_on, fg="red",
                                        activebackground='#58ACFA', height=40, width=40, bg='#81BEF7',
                                        image=self.image_eject)
-            self.eject_button.grid(row=8, column=4, rowspan=1)
+            self.eject_button.grid(row=8, column=4,  rowspan=1)
+            self.rewind_button = Button(self.centerframe, text='Rewind', command=self.rc_bluray.rewind, fg="red",
+                                       activebackground='#58ACFA', height=40, width=40, bg='#81BEF7',
+                                       image=self.image_rewind)
+            self.rewind_button.grid(row=9, column=1, rowspan=1)
+            self.ff_button = Button(self.centerframe, text='FF', command=self.rc_bluray.rewind, fg="red",
+                                        activebackground='#58ACFA', height=40, width=40, bg='#81BEF7',
+                                        image=self.image_ff)
+            self.ff_button.grid(row=9, column=2, rowspan=1)
 
         elif dev_name == 'AVR':
             self.clearcenter()

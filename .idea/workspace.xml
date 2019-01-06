@@ -40,7 +40,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="json" value="90" />
-          <entry key="py" value="5110" />
+          <entry key="py" value="5161" />
           <entry key="txt" value="28" />
         </counts>
       </usages-collector>
@@ -48,7 +48,7 @@
         <counts>
           <entry key="JSON" value="90" />
           <entry key="PLAIN_TEXT" value="28" />
-          <entry key="Python" value="5110" />
+          <entry key="Python" value="5161" />
         </counts>
       </usages-collector>
     </session>
@@ -58,13 +58,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tk_lirc_runner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1169">
-              <caret line="133" column="26" lean-forward="true" selection-start-line="72" selection-start-column="14" selection-end-line="74" selection-end-column="62" />
+            <state relative-caret-position="502">
+              <caret line="98" column="47" selection-start-line="98" selection-start-column="47" selection-end-line="98" selection-end-column="47" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
-                <marker date="1546750610159" expanded="true" signature="165:170" ph="..." />
-                <marker date="1546750610159" expanded="true" signature="2524:6473" ph="..." />
-                <marker date="1546750610159" expanded="true" signature="7122:7221" ph="..." />
+                <marker date="1546751000122" expanded="true" signature="165:170" ph="..." />
+                <marker date="1546751000122" expanded="true" signature="2524:7147" ph="..." />
+                <marker date="1546751000122" expanded="true" signature="7796:7895" ph="..." />
               </folding>
             </state>
           </provider>
@@ -511,7 +511,21 @@
       <option name="project" value="LOCAL" />
       <updated>1546750169983</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="add more images">
+      <created>1546750619364</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1546750619364</updated>
+    </task>
+    <task id="LOCAL-00034" summary="add more images">
+      <created>1546750715244</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1546750715244</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -619,13 +633,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tk_lirc_runner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1169">
-          <caret line="133" column="26" lean-forward="true" selection-start-line="72" selection-start-column="14" selection-end-line="74" selection-end-column="62" />
+        <state relative-caret-position="502">
+          <caret line="98" column="47" selection-start-line="98" selection-start-column="47" selection-end-line="98" selection-end-column="47" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
-            <marker date="1546750610159" expanded="true" signature="165:170" ph="..." />
-            <marker date="1546750610159" expanded="true" signature="2524:6473" ph="..." />
-            <marker date="1546750610159" expanded="true" signature="7122:7221" ph="..." />
+            <marker date="1546751000122" expanded="true" signature="165:170" ph="..." />
+            <marker date="1546751000122" expanded="true" signature="2524:7147" ph="..." />
+            <marker date="1546751000122" expanded="true" signature="7796:7895" ph="..." />
           </folding>
         </state>
       </provider>
