@@ -29,6 +29,7 @@ class HomeScreen(object):
         self.image_enter = ImageTk.PhotoImage(Image.open('images/enter-key.png'))
         self.image_left = ImageTk.PhotoImage(Image.open('images/left.png'))
         self.image_right = ImageTk.PhotoImage(Image.open('images/right.png'))
+        self.image_eject = ImageTk.PhotoImage(Image.open('images/eject.png'))
 
         self.master = master
         self.master.title('RaspPi Remote')
@@ -60,29 +61,34 @@ class HomeScreen(object):
                                     activebackground='#58ACFA', height=40, width=40, bg='#81BEF7', image=self.image_on)
             self.on_button.grid(row=5, column=3, rowspan=2)
             self.off_button = Button(self.centerframe, text='OFF', command=self.pwr_off_all, fg="red",
-                                     activebackground='#58ACFA', height=40, width=40, bg='#81BEF7', image=self.image_off)
+                                     activebackground='#58ACFA', height=40, width=40, bg='#81BEF7',
+                                     image=self.image_off)
             self.off_button.grid(row=5, column=10, rowspan=2)
 
         elif dev_name == 'Bluray':
             self.clearcenter()
             self.on_button = Button(self.centerframe, text='ON', command=self.rc_bluray.pwr_on, fg="green",
-                                    activebackground='#58ACFA', height=2, width=10, bg='#81BEF7')
+                                    activebackground='#58ACFA', height=2, width=10, bg='#81BEF7', image=self.image_on)
             self.on_button.grid(row=2, column=1, rowspan=2)
             self.off_button = Button(self.centerframe, text='OFF', command=self.rc_bluray.pwr_off, fg="red",
-                                     activebackground='#58ACFA', height=2, width=10, bg='#81BEF7')
+                                     activebackground='#58ACFA', height=2, width=10, bg='#81BEF7', image=self.image_off)
             self.off_button.grid(row=2, column=2, rowspan=2)
-            self.on_button = Button(self.centerframe, text='Play', command=self.rc_bluray.pwr_on, fg="blue",
-                                    activebackground='#58ACFA', height=2, width=10, bg='#81BEF7')
-            self.on_button.grid(row=8, column=1, rowspan=1)
-            self.on_button = Button(self.centerframe, text='Stop', command=self.rc_bluray.pwr_on, fg="red",
-                                    activebackground='#58ACFA', height=2, width=10, bg='#81BEF7')
-            self.on_button.grid(row=8, column=2, rowspan=1)
-            self.on_button = Button(self.centerframe, text='Pause', command=self.rc_bluray.pwr_on, fg="red",
-                                    activebackground='#58ACFA', height=2, width=10, bg='#81BEF7')
-            self.on_button.grid(row=8, column=3, rowspan=1)
-            self.on_button = Button(self.centerframe, text='Eject', command=self.rc_bluray.pwr_on, fg="red",
-                                    activebackground='#58ACFA', height=2, width=10, bg='#81BEF7')
-            self.on_button.grid(row=10, column=2, rowspan=1)
+            self.play_button = Button(self.centerframe, text='Play', command=self.rc_bluray.pwr_on, fg="blue",
+                                      activebackground='#58ACFA', height=2, width=10, bg='#81BEF7',
+                                      image=self.image_play)
+            self.play_button.grid(row=8, column=1, rowspan=1)
+            self.stop_button = Button(self.centerframe, text='Stop', command=self.rc_bluray.pwr_on, fg="red",
+                                      activebackground='#58ACFA', height=2, width=10, bg='#81BEF7',
+                                      image=self.image_stop)
+            self.stop_button.grid(row=8, column=2, rowspan=1)
+            self.pause_button = Button(self.centerframe, text='Pause', command=self.rc_bluray.pwr_on, fg="red",
+                                       activebackground='#58ACFA', height=2, width=10, bg='#81BEF7',
+                                       image=self.image_pause)
+            self.pause_button.grid(row=8, column=3, rowspan=1)
+            self.eject_button = Button(self.centerframe, text='Eject', command=self.rc_bluray.pwr_on, fg="red",
+                                       activebackground='#58ACFA', height=2, width=10, bg='#81BEF7',
+                                       image=self.image_eject)
+            self.eject_button.grid(row=10, column=2, rowspan=1)
 
         elif dev_name == 'AVR':
             self.clearcenter()
