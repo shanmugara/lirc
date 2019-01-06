@@ -21,6 +21,14 @@ class HomeScreen(object):
 
         self.image_on = ImageTk.PhotoImage(Image.open('images/power_on.png'))
         self.image_off = ImageTk.PhotoImage(Image.open('images/power_off.png'))
+        self.image_play = ImageTk.PhotoImage(Image.open('images/play.png'))
+        self.image_stop = ImageTk.PhotoImage(Image.open('images/stop.png'))
+        self.image_pause = ImageTk.PhotoImage(Image.open('images/pause.png'))
+        self.image_rewind = ImageTk.PhotoImage(Image.open('images/rewind.png'))
+        self.image_ff = ImageTk.PhotoImage(Image.open('images/fast-forward.png'))
+        self.image_enter = ImageTk.PhotoImage(Image.open('images/enter-key.png'))
+        self.image_left = ImageTk.PhotoImage(Image.open('images/left.png'))
+        self.image_right = ImageTk.PhotoImage(Image.open('images/right.png'))
 
         self.master = master
         self.master.title('RaspPi Remote')
