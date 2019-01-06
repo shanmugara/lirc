@@ -59,7 +59,7 @@ class HomeScreen(object):
             self.clearcenter()
             self.on_button = Button(self.centerframe, text='ON', command=self.pwr_on_all, fg="green",
                                     activebackground='#58ACFA', height=40, width=40, bg='#81BEF7', image=self.image_on)
-            self.on_button.grid(row=1, column=3, rowspan=2)
+            self.on_button.grid(row=1, column=1, rowspan=2)
             self.off_button = Button(self.centerframe, text='OFF', command=self.pwr_off_all, fg="red",
                                      activebackground='#58ACFA', height=40, width=40, bg='#81BEF7',
                                      image=self.image_off)
