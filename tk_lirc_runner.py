@@ -66,6 +66,9 @@ class HomeScreen(object):
             self.label_on_all = Label(self.centerframe, text='ON ALL', fg="green")
             self.label_on_all.grid(row=5, column=1)
 
+            self.label_off_all = Label(self.centerframe, text='OFF ALL', fg="red")
+            self.label_off_all.grid(row=5, column=30)
+
         elif dev_name == 'Bluray':
             self.clearcenter()
             self.on_button = Button(self.centerframe, text='ON', command=self.rc_bluray.pwr_on, fg="green",
