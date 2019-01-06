@@ -64,7 +64,7 @@ class HomeScreen(object):
                                      image=self.image_off)
             self.off_button.grid(row=1, column=30, rowspan=2, padx=(20, 20), pady=(20, 20))
             self.label_on_all = Label(self.centerframe, text='ON ALL')
-            self.label_on_all.grid(row=6, column=1)
+            self.label_on_all.grid(row=5, column=1)
 
         elif dev_name == 'Bluray':
             self.clearcenter()

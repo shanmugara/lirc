@@ -40,7 +40,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="json" value="90" />
-          <entry key="py" value="5355" />
+          <entry key="py" value="5357" />
           <entry key="txt" value="28" />
         </counts>
       </usages-collector>
@@ -48,7 +48,7 @@
         <counts>
           <entry key="JSON" value="90" />
           <entry key="PLAIN_TEXT" value="28" />
-          <entry key="Python" value="5355" />
+          <entry key="Python" value="5357" />
         </counts>
       </usages-collector>
     </session>
@@ -59,12 +59,12 @@
         <entry file="file://$PROJECT_DIR$/tk_lirc_runner.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="454">
-              <caret line="66" column="50" selection-start-line="66" selection-start-column="50" selection-end-line="66" selection-end-column="50" />
+              <caret line="66" column="40" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
-                <marker date="1546752375944" expanded="true" signature="165:170" ph="..." />
-                <marker date="1546752375944" expanded="true" signature="2531:7335" ph="..." />
-                <marker date="1546752375944" expanded="true" signature="7984:8083" ph="..." />
+                <marker date="1546752490728" expanded="true" signature="165:170" ph="..." />
+                <marker date="1546752490728" expanded="true" signature="2531:7335" ph="..." />
+                <marker date="1546752490728" expanded="true" signature="7984:8083" ph="..." />
               </folding>
             </state>
           </provider>
@@ -567,7 +567,21 @@
       <option name="project" value="LOCAL" />
       <updated>1546751865743</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="add more images">
+      <created>1546752390616</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1546752390616</updated>
+    </task>
+    <task id="LOCAL-00042" summary="add more images">
+      <created>1546752436376</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1546752436376</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -676,12 +690,12 @@
     <entry file="file://$PROJECT_DIR$/tk_lirc_runner.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="454">
-          <caret line="66" column="50" selection-start-line="66" selection-start-column="50" selection-end-line="66" selection-end-column="50" />
+          <caret line="66" column="40" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
-            <marker date="1546752375944" expanded="true" signature="165:170" ph="..." />
-            <marker date="1546752375944" expanded="true" signature="2531:7335" ph="..." />
-            <marker date="1546752375944" expanded="true" signature="7984:8083" ph="..." />
+            <marker date="1546752490728" expanded="true" signature="165:170" ph="..." />
+            <marker date="1546752490728" expanded="true" signature="2531:7335" ph="..." />
+            <marker date="1546752490728" expanded="true" signature="7984:8083" ph="..." />
           </folding>
         </state>
       </provider>
