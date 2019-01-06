@@ -40,9 +40,8 @@ class HomeScreen(object):
         self.centerframe = Frame(master)
         self.centerframe.grid(row=2, column=0)
 
-        self.label = Label(self.topframe, text='Select device: ')
-
-        self.label.grid(row=0, column=3)
+        self.label_top = Label(self.topframe, text='Select device: ')
+        self.label_top.grid(row=0, column=3)
 
         self.device_list = ['All', 'Bluray', 'AVR', 'Projector', 'Screen']
         self.devices = StringVar(master)
@@ -64,6 +63,8 @@ class HomeScreen(object):
                                      activebackground='#58ACFA', height=40, width=40, bg='#81BEF7',
                                      image=self.image_off)
             self.off_button.grid(row=1, column=30, rowspan=2, padx=(20, 20), pady=(20, 20))
+            self.label_on_all = Label(self.centerframe, text='ON ALL')
+            self.label_on_all.grid(row=2, column=1)
 
         elif dev_name == 'Bluray':
             self.clearcenter()
