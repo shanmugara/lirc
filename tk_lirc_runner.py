@@ -70,9 +70,9 @@ class HomeScreen(object):
             self.on_button = Button(self.centerframe, text='ON', command=self.rc_bluray.pwr_on, fg="green",
                                     activebackground='#58ACFA', height=40, width=40, bg='#81BEF7', image=self.image_on)
             self.on_button.grid(row=2, column=1, rowspan=2)
-            self.off_button = Button(self.centerframe, text='OFF', command=self.rc_bluray.pwr_off, fg="red",
-                                     activebackground='#58ACFA', height=40, width=40, bg='#81BEF7', image=self.image_off)
-            self.off_button.grid(row=2, column=2, rowspan=2)
+            # self.off_button = Button(self.centerframe, text='OFF', command=self.rc_bluray.pwr_off, fg="red",
+            #                          activebackground='#58ACFA', height=40, width=40, bg='#81BEF7', image=self.image_off)
+            # self.off_button.grid(row=2, column=2, rowspan=2)
             self.play_button = Button(self.centerframe, text='Play', command=self.rc_bluray.pwr_on, fg="blue",
                                       activebackground='#58ACFA', height=40, width=40, bg='#81BEF7',
                                       image=self.image_play)
