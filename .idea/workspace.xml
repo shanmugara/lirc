@@ -40,7 +40,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="json" value="90" />
-          <entry key="py" value="5161" />
+          <entry key="py" value="5203" />
           <entry key="txt" value="28" />
         </counts>
       </usages-collector>
@@ -48,7 +48,7 @@
         <counts>
           <entry key="JSON" value="90" />
           <entry key="PLAIN_TEXT" value="28" />
-          <entry key="Python" value="5161" />
+          <entry key="Python" value="5203" />
         </counts>
       </usages-collector>
     </session>
@@ -58,13 +58,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tk_lirc_runner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="98" column="47" selection-start-line="98" selection-start-column="47" selection-end-line="98" selection-end-column="47" />
+            <state relative-caret-position="167">
+              <caret line="65" column="38" selection-start-line="65" selection-start-column="38" selection-end-line="65" selection-end-column="38" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
-                <marker date="1546751000122" expanded="true" signature="165:170" ph="..." />
-                <marker date="1546751000122" expanded="true" signature="2524:7147" ph="..." />
-                <marker date="1546751000122" expanded="true" signature="7796:7895" ph="..." />
+                <marker date="1546751485270" expanded="true" signature="165:170" ph="..." />
+                <marker date="1546751485270" expanded="true" signature="2524:7145" ph="..." />
+                <marker date="1546751485270" expanded="true" signature="7794:7893" ph="..." />
               </folding>
             </state>
           </provider>
@@ -118,10 +118,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/devices/bluray.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+            <state relative-caret-position="240">
+              <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
               <folding>
-                <marker date="1545605746605" expanded="true" signature="67:72" ph="..." />
+                <marker date="1546751104401" expanded="true" signature="67:72" ph="..." />
               </folding>
             </state>
           </provider>
@@ -147,9 +147,9 @@
         <option value="$PROJECT_DIR$/devices/screen.py" />
         <option value="$PROJECT_DIR$/devices/projector.py" />
         <option value="$PROJECT_DIR$/devices/avr.py" />
-        <option value="$PROJECT_DIR$/devices/bluray.py" />
         <option value="$PROJECT_DIR$/lirc_runner.py" />
         <option value="$PROJECT_DIR$/devices/rc_model_map.json" />
+        <option value="$PROJECT_DIR$/devices/bluray.py" />
         <option value="$PROJECT_DIR$/tk_lirc_runner.py" />
       </list>
     </option>
@@ -525,7 +525,21 @@
       <option name="project" value="LOCAL" />
       <updated>1546750715244</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="add more images">
+      <created>1546751008417</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1546751008417</updated>
+    </task>
+    <task id="LOCAL-00036" summary="add more images">
+      <created>1546751112627</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1546751112627</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -623,23 +637,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/devices/bluray.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        <state relative-caret-position="240">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
           <folding>
-            <marker date="1545605746605" expanded="true" signature="67:72" ph="..." />
+            <marker date="1546751104401" expanded="true" signature="67:72" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tk_lirc_runner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="98" column="47" selection-start-line="98" selection-start-column="47" selection-end-line="98" selection-end-column="47" />
+        <state relative-caret-position="167">
+          <caret line="65" column="38" selection-start-line="65" selection-start-column="38" selection-end-line="65" selection-end-column="38" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
-            <marker date="1546751000122" expanded="true" signature="165:170" ph="..." />
-            <marker date="1546751000122" expanded="true" signature="2524:7147" ph="..." />
-            <marker date="1546751000122" expanded="true" signature="7796:7895" ph="..." />
+            <marker date="1546751485270" expanded="true" signature="165:170" ph="..." />
+            <marker date="1546751485270" expanded="true" signature="2524:7145" ph="..." />
+            <marker date="1546751485270" expanded="true" signature="7794:7893" ph="..." />
           </folding>
         </state>
       </provider>
